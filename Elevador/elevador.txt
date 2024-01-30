@@ -1,0 +1,15 @@
+Contexto:
+O prédio em questão possui 6 andares, além do térreo e 2 subsolos, totalizando 9 pisos. Dois elevadores estão disponíveis para atender a demanda dos moradores. Cada turma (A e B) é responsável por implementar a lógica de controle de elevadores em suas respectivas tecnologias.
+
+Projeto da Solução:
+Turma A (HTML, CSS, JS):
+Desenvolver uma interface web amigável que represente visualmente os elevadores e os andares do prédio.
+Implementar a lógica de controle de elevadores utilizando JavaScript para simular o movimento entre andares.
+
+Avaliação:
+Turma A (HTML, CSS, JS):
+Competências Avaliadas:
+Proficiência em HTML para estruturação da página.
+Habilidade em CSS para estilização e layout responsivo.
+Competência em JavaScript para implementação da lógica de controle de elevadores.
+Integração adequada entre as tecnologias.
