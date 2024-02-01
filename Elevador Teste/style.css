@@ -1,0 +1,114 @@
+
+header{
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    font-family: "Trebuchet MS","ARIAL","Helvetica","Sans-Serif";
+    font-size: 18px;
+}
+
+ul{
+    list-style-type:none;
+}
+a.nounderline:link 
+{ 
+ text-decoration:none; 
+}
+a:visited{
+    text-decoration:none;
+}
+a:link 
+{ 
+ text-decoration:none; 
+}
+#boxelevador{ 
+    width: 40% ;
+    min-width: 30px;
+    height: 490px; 
+    
+    text-align: center;
+    float: left; 
+}
+    #elevador{
+        height: 200px;
+     
+       
+    }
+    #painelAndares{
+        height: 100px;
+        max-width: 70px;
+        background-color: #090;
+        border: 2px solid black;
+        text-align: center; 
+        
+      
+}
+#botaoParede{
+    width: 50% auto;
+    min-width: 30px;
+    height: 490px;
+    border: 1px solid red;
+    text-align: center; 
+}
+
+#andar{
+
+    width: 100% auto;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 20px;
+   background-color: brown;
+    color: #FFF;
+    font-family: "Trebuchet MS","ARIAL","Helvetica","Sans-Serif";
+    font-size: 18px;
+
+}
+img{
+    width: auto;
+    height: 100%;
+}
+
+.botao ul {
+    width: auto;
+    height: 100%;
+   list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.botao li {
+    padding: 8px;
+    margin-bottom: 7px;
+    
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.botao li:hover {
+   
+  
+}
+
+.Painel{
+   color: #FFF;
+    font-family: "Trebuchet MS","ARIAL","Helvetica","Sans-Serif";
+    font-size: 18px;
+    list-style-type:none;
+}
+.apertar{
+    display: inline;
+}
+
+section{
+    background-image: url("tijolinhos.jpg");
+    background-size: 20%;
+    background-repeat: repeat;
+}
+.direita{
+    width: 100% auto;
+    
+}
+.btn{
+    
+    border-radius: 25px;
+    width: 55px;
+    height: 30px;
+}

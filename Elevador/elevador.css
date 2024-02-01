@@ -8,13 +8,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 120vh;
 }
 .predio{
-    width: 80%;
-    height: 80%;
+    width: 40%;
+    height: 600px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(49, 127, 61);
+    /* align-items: center;  */
+    /* flex-direction: column; */
+    background-color: rgb(44, 46, 45);
+}
+.predio img{
+    width: 350px;
+    border: red;
+}
+.janelas{
+    margin-top: 5%;
+    margin: 20px;
+    background-color: antiquewhite;
+    display: flex; 
+   justify-content: center;
+   align-items: center;
+    /* display: flex;
+    justify-content: center; */
+    width: 20px;
+    height: 20px;
 }
