@@ -1,0 +1,135 @@
+body {
+    background-color: #2a4e2f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header span{
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+    
+    .fs-4{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 80px!important;
+    }
+    
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+      }
+    }
+    
+    .elevators-body {
+        height: 800px;
+      background-color: #202136;
+      padding-bottom: 50px; /* Adicionado para espaço abaixo dos botões */
+    }
+    
+    #dynamicCompartment {
+      position: relative;
+      height: 429.6px;
+      margin: 25px 0 25px 0;
+      padding: 0;
+    }
+    
+    .elevator {
+      position: relative;
+      margin: 0 8px;
+      background-color: #807edf;
+      width: 50px;
+      min-height: 100vh; /* Mínimo de altura da tela */
+      top: 0px;
+      text-align: center;
+      font-size: 24pt;
+    }
+    
+    .compartment {
+      position: absolute;
+      bottom: 0;
+      background-color: #a85757;
+      height: 85px;
+      font-size: 12pt;
+      color: #ffffff;
+      font-weight: 500;
+      overflow: hidden;
+      width: 50%;
+    }
+    
+    .compartment > div {
+      position: relative;
+      top: -715px;
+    }
+    
+    .compartment > div > div {
+      position: relative;
+      height: 90px;
+    }
+    
+    #upDownButtons {
+      position: relative;
+      height: 366px;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .floor-buttons {
+      height: 85px;
+    }
+    
+    .span-floor {
+    margin-left: 50px;
+    color: white;
+    }
+    
+    .button {
+      border: none;
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      background-color: #692323;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    
+    .button:hover {
+      background-color: #1a3e81;
+    }
+    
+    .button:hover .upSide{ border-bottom: 9px solid #bcc6d7;}
+    
+    .button > .upSide {
+      height: 0; 
+      border-left: 8.5px solid transparent;
+      border-right: 8.5px solid transparent;    
+      border-bottom: 9px solid #ffffff;
+    }
+    
+    .button > .downSide {
+      height: 0; 
+      border-left: 8.5px solid transparent;
+      border-right: 8.5px solid transparent;    
+      border-top: 9px solid white;
+    }
+    
+    #floor-buttons-1 button.button.downSide {
+    display: none;
+    }
+    
+    .floor-number-container {
+      border: none;
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      background-color: #4543b9;
+      margin-right: 10px;
+    }
